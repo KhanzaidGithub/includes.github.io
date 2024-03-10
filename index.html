@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus earum blanditiis id! Fugit, molestias
+        nesciunt? Dignissimos veniam tempora temporibus nesciunt ut fuga voluptate, nostrum quasi a corporis voluptas
+        adipisci voluptatum laborum distinctio accusantium eos perspiciatis?</h2>
+    <button onclick="find()">Find TXT</button>
+    <script>
+        function find() {
+            let user1 = prompt('Enter a value you wanna find');
+            let txt = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus earum blanditiis id! Fugit, molestias nesciunt? Dignissimos veniam tempora temporibus nesciunt ut fuga voluptate, nostrum quasi a corporis voluptas adipisci voluptatum laborum distinctio accusantium eos perspiciatis?";
+
+            if (txt.toLowerCase().includes(user1.toLowerCase())) {
+                alert('TEXT Found');
+            }
+            else (
+                alert('TEXT Does not match')
+            )
+        }
+    </script>
+</body>
+
+</html>
